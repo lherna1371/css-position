@@ -1,0 +1,44 @@
+body {
+    height:2000px;
+}
+
+.parent-div {
+    border: 2px solid black;
+    /* margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 150px; */
+    background: gray;
+    /* text-align: center; */
+    height: 100%;
+    /* position: relative; */
+}
+
+.child-div {
+    display: inline-block;
+    height: 400px;
+    width: 200px;
+    border: 1px solid red;
+}
+
+.target-div1 {
+    background: red;
+    position: absolute;
+    bottom: 300px;
+    right: 350px;
+}
+
+
+
+.target-div2 {
+    background: green;
+    position: relative;
+    top: 150px;
+    left: 25px;
+} 
+
+
+.target-div3 {
+    background: royalblue;
+    position: sticky;
+    top: 0px;
+}
